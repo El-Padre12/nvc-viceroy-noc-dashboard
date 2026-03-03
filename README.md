@@ -17,7 +17,7 @@ Built with React + Vite, served via nginx inside Docker.
 
 ## Requirements
 
-- Ubuntu 22.04+ server with SSH access
+- Linux server with SSH access (this one runs on debian13)
 - Docker + Docker Compose installed
 - Port 8080 open on the firewall
 
