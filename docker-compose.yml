@@ -1,0 +1,7 @@
+services:
+  noc-dashboard:
+    build: .
+    container_name: noc-dashboard
+    ports:
+      - "8080:80"       # Access on http://<server-ip>:8080
+    restart: unless-stopped
